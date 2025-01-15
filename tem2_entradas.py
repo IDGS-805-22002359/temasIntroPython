@@ -1,0 +1,6 @@
+print('Dame dos números')
+num1 = input('Número uno: ')
+num2 = input('Número dos: ')
+sum = int(num1) + int(num2)
+print('La suma de los dos números es: ', sum)
+print('La suma de {} + {} es {}'.format(num1, num2, sum))
