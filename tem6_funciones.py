@@ -15,6 +15,7 @@ def g():
   print('{} - {} = {}'.format(numA, numB, numA - numB))
 
 def run():
+  os.system('clear')
   option = int(input('1. Sumar\n2. Restar\n'))
   if option == 1:
     f()
